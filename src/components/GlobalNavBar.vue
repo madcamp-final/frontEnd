@@ -10,7 +10,7 @@
       <li><router-link class="rl" to="/Learn">iPad</router-link></li>
       <li><router-link class="rl" to="/Make">iPhone</router-link></li>
       <li><router-link class="rl" to="/About">Watch</router-link></li>
-      <li><router-link class="rl" to="/About">TV</router-link></li>
+      <li><router-link class="rl" to="/MultiImg">TV</router-link></li>
       <li><router-link class="rl" to="/About">Music</router-link></li>
       <li><router-link class="rl" to="/About">Service</router-link></li>
       <li>

@@ -31,6 +31,15 @@ const routes = [
     component: () =>
       import(/* webpackChunkName: "about" */ "../views/Make.vue"),
   },
+
+  {
+    path: "/MultiImg",
+    name: "MultiImg",
+    component: () =>
+      import(/* webpackChunkName: "about" */ "../views/MultiImg.vue"),
+  },
+
+
 ];
 
 const router = createRouter({
