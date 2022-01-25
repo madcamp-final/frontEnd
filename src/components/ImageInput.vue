@@ -57,22 +57,33 @@ export default {
       /*
 					Add the form data we need to submit
 				*/
-      formData.append("file", this.file);
+      formData.append("image", this.file);
 
       /*
 					Make the request to the POST /single-file URL
 				*/
+      let objectList;
+      // e.g. {class: 'backpack', x: 7, y: 33, w: 1043, h: 1361} - 이게 원소 하나
       axios
-        .post("/single-image-preview", formData, {
+        .post("http://192.249.18.199:80/detect", formData, {
           headers: {
             "Content-Type": "multipart/form-data",
           },
         })
-        .then(function () {
-          console.log("SUCCESS!!");
+        .then(function (res) {
+          var data = res["data"];
+          return data["data"];
         })
         .catch(function () {
-          console.log("FAILURE!!");
+          console.log("FAILURE!!"); 
+        }).then((datas) => {
+          objectList = datas;
+          console.log(objectList);
+          if (datas.length == 0) {
+            alert("감지된 상품이 없습니다!"); 
+          }
+          // var obj = objectList[1];
+          // console.log(obj["class"])
         });
     },
 
