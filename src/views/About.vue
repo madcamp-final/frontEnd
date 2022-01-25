@@ -36,10 +36,16 @@
 
 <script>
 import VueHorizontal from "vue-horizontal";
+import axios from "axios";
+
 export default {
   components: { VueHorizontal },
+  created(){
+    this.getProducts();
+  },
   data() {
     return {
+      productInfo: null,
       items: [
         { url: require("../imgs/cities/athens.jpg"), alt: "img-1" },
         { url: require("../imgs/cities/barcelona 1.jpg"), alt: "img-2" },
@@ -52,6 +58,17 @@ export default {
         { url: require("../imgs/cities/Paris.jpg"), alt: "img-9" },
       ],
     };
+  },
+  methods: {
+    getProducts: async function(){
+      axios
+        .get("http://54.180.160.3:8080/product/load")
+        .then((response) => {
+          console.log(response);
+          this.productInfo = response.data.data;
+          console.log(this.productInfo);
+        })
+    }
   },
 };
 </script>

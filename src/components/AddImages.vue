@@ -102,6 +102,8 @@ export default {
         function () {
           this.showPreview_0 = true;
           this.imagePreview_0 = reader.result;
+          console.log(this.imagePreview_0);
+          console.log(this.showPreview_0);
         }.bind(this),
         false
       );

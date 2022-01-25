@@ -74,7 +74,7 @@ export default {
   },
   methods: {
     //NLP post 함수, 물품 상태 인자로 넣어주어야함 >> 새로고침 버튼 클릭 시 호출
-    postNLP: function(productStatus){
+    postNLP: async function(productStatus){
       productStatus = "상태-" + productStatus;
 
       let nlpPostData = {
