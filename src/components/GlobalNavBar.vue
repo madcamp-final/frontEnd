@@ -2,9 +2,9 @@
   <nav>
     <ul>
       <li>
-        <router-link class="rl" to="/"
-          ><i class="fab fa-apple"></i
-        ></router-link>
+        <router-link class="rl" to="/">
+          <i class="fab fa-apple"></i>
+        </router-link>
       </li>
       <li><router-link class="rl" to="/About">Mac</router-link></li>
       <li><router-link class="rl" to="/Learn">iPad</router-link></li>
@@ -14,14 +14,14 @@
       <li><router-link class="rl" to="/About">Music</router-link></li>
       <li><router-link class="rl" to="/About">Service</router-link></li>
       <li>
-        <router-link class="rl" to="/Learn"
-          ><i class="fal fa-search"></i
-        ></router-link>
+        <router-link class="rl" to="/Learn">
+          <i class="fal fa-search"></i>
+        </router-link>
       </li>
       <li>
-        <router-link class="rl" to="/Learn"
-          ><i class="fas fa-user-circle"></i
-        ></router-link>
+        <router-link class="rl" to="/Learn">
+          <i class="fas fa-user-circle"></i>
+        </router-link>
       </li>
     </ul>
   </nav>

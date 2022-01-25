@@ -220,7 +220,10 @@
           <div class="grid-detail-sum">
             <h2>Accessories</h2>
             <p>get things done in style.</p>
-            <a href="#">shop now <i class="fas fa-chevron-right"></i></a>
+            <a href="#">
+              shop now
+              <i class="fas fa-chevron-right"></i>
+            </a>
           </div>
         </div>
       </div>

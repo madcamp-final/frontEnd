@@ -15,18 +15,31 @@
       </div>
       <div class="sticky-elem main-message a">
         <p>
-          뭔가 멋져 보이는<br />
+          뭔가 멋져 보이는
+          <br />
           아무말
         </p>
       </div>
       <div class="sticky-elem main-message b">
-        <p>주변 맛을 느끼게 해주는<br />주변 맛 허용 모드</p>
+        <p>
+          주변 맛을 느끼게 해주는
+          <br />
+          주변 맛 허용 모드
+        </p>
       </div>
       <div class="sticky-elem main-message c">
-        <p>온종일 편안한<br />맞춤형 손잡이</p>
+        <p>
+          온종일 편안한
+          <br />
+          맞춤형 손잡이
+        </p>
       </div>
       <div class="sticky-elem main-message d">
-        <p>새롭게 입가를<br />찾아온 매혹</p>
+        <p>
+          새롭게 입가를
+          <br />
+          찾아온 매혹
+        </p>
       </div>
     </section>
     <section class="scroll-section" id="scroll-section-1">
@@ -77,7 +90,11 @@
         <div class="pin"></div>
       </div>
       <div class="sticky-elem desc-message c">
-        <p>디자인 앤 퀄리티 오브 스웨덴,<br />메이드 인 차이나</p>
+        <p>
+          디자인 앤 퀄리티 오브 스웨덴,
+          <br />
+          메이드 인 차이나
+        </p>
         <div class="pin"></div>
       </div>
     </section>

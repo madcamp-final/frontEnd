@@ -6,8 +6,7 @@
     v-on:updateOption="methodToRunOnSelect"
     :placeholder="'Select an Item'"
     :closeOnOutsideClick="boolean"
-  >
-  </dropdown>
+  ></dropdown>
 </template>
 
 <script>

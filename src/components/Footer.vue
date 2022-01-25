@@ -77,8 +77,10 @@
 
       <div class="footer-contact">
         <p>
-          More ways to shop: visit an <a href="#">Apple Store, </a>Call
-          001‑800‑65‑6957, or <a href="#">find a seller</a>
+          More ways to shop: visit an
+          <a href="#">Apple Store,</a>
+          Call 001‑800‑65‑6957, or
+          <a href="#">find a seller</a>
         </p>
       </div>
       <div class="footer-copyright">

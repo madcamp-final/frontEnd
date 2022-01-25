@@ -17,8 +17,8 @@
     <p class="title">Single Image Preview</p>
     <hr />
     <div class="large-12 medium-12 small-12 cell">
-      <label
-        >File Preview
+      <label>
+        File Preview
         <input
           type="file"
           id="file"
